@@ -36,6 +36,7 @@ http://www.ncbi.nlm.nih.gov/sra
     + **join stderr & stdout** Checked *(Keep checked for all job files)*  
     + hint: either use ```nano``` or upload your job file using ```scp``` from your local machine into the `assembly_tutorial` directory. See [here](https://confluence.si.edu/display/HPC/Disk+Space+and+Disk+Usage) and [here](https://confluence.si.edu/display/HPC/Transferring+files+to+or+from+Hydra) on the Hydra wiki for more info.  
     + hint: submit the job on Hydra using ```qsub```   
+    + important: SRA creates a cache in ~/ncbi that can get big and needs to be manually removed
     + if you happen to get an error from NCBI as can sometimes occur with outside URLs, ```cp``` the data to your directory: ```cp /pool/scratch/genomics/dikowr/SRR2181871.fastq <YOUR_PATH>``` 
 
 

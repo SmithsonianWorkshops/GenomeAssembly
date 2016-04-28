@@ -35,13 +35,15 @@ http://www.ncbi.nlm.nih.gov/sra
     + **change to cwd:** Checked *(keep checked for all job files)*  
     + **join stderr & stdout** Checked *(Keep checked for all job files)*  
     + hint: either use ```nano``` or upload your job file using ```scp``` from your local machine into the `assembly_tutorial` directory. See [here](https://confluence.si.edu/display/HPC/Disk+Space+and+Disk+Usage) and [here](https://confluence.si.edu/display/HPC/Transferring+files+to+or+from+Hydra) on the Hydra wiki for more info.  
-    + hint: submit the job on Hydra using ```qsub```  
+    + hint: submit the job on Hydra using ```qsub```   
+    + if you happen to get an error from NCBI as can sometimes occur with outside URLs, ```cp``` the data to your directory: ```cp /pool/scratch/genomics/dikowr/SRR2181871.fastq <YOUR_PATH>``` 
 
 
 * Create a job file to download the Illumina MiSeq data and convert to fastq format:  
  + here we need an additional argument to split the SRA file into forward and reverse since the data are paired-end.
  + **command:** 
-```fastq-dump --split-files SRR1555312```
+```fastq-dump --split-files SRR1555312```  
++ see above about using ```cp``` if you get an error. These files will be named ```SRR1555312_1.fastq``` and ```SRR1555312_2.fastq```
 
 * It's probably useful to rename these files so that the names are meaningful. Try something like this:  
 	+ ```ls``` to see the current names of the files you just downloaded   

@@ -65,7 +65,7 @@ http://www.ncbi.nlm.nih.gov/sra
 * PacBio data will be error-corrected solely by the assembler, but Illumina data trimming and thinning are common.
 * Most assemblers these days don't want you to trim/thin for quality before assembling, but we do want to make sure we look for adapters. TrimGalore will auto-detect what adapters are present and remove very low quality reads (quality score <20) by default.  
 * Run TrimGalore on Illumina data to trim adapters. I think the data we downloaded are clean, but it's a good exercise! Create a job file to trim adapters and very low quality reads for the Illumina data.
-	+ **command**: ```trim_galore --paired --retain_unpaired``` <FILE_1.fastq> <FILE_2.fastq>  
+	+ **command**: ```trim_galore --paired --retain_unpaired <FILE_1.fastq> <FILE_2.fastq>```  
 	+ **module**: ```bioinformatics/trimgalore/0.4.0```
 	+ You can then run FastQC again to see if anything has changed.
 

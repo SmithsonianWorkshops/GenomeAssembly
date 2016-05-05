@@ -33,14 +33,14 @@ Tutorial Steps:
 	+ **Hint:** use the QSub Generator: [QSub Generator](https://hydra-3.si.edu/tools/QSubGen)  
 	+ **Queue:** Medium-length, High CPU queue is fine for small genomes  
 	+ **Threads & RAM:** I suggest 12 threads, with 4GB RAM for each  
-	+ **Module:** ```module load bioinformatics/spades/3.7```   
-+ Make sure you choose the most recent version of SPAdes, 3.7.  
+	+ **Module:** ```module load bioinformatics/spades/3.7```    
+	+ Make sure you choose the most recent version of SPAdes, 3.7.    
  + For 2X250 Illumina data, they suggest the following commands: 
 ```-k 21,33,55,77,99,127```  
 ```--careful```  
-	+ You will also need to specify the reads using:  
-```-1 Salmonella_RM_8375_MiSeq_SRR1555312_1.fastq```
-```-2 Salmonella_RM_8375_MiSeq_SRR1555312_2.fastq```    
+	+ You will also need to specify the reads using:   
+```-1 Salmonella_RM_8375_MiSeq_SRR1555312_1.fastq```  
+```-2 Salmonella_RM_8375_MiSeq_SRR1555312_2.fastq```      
 	+ And an output directory:  
 ```-o SPAdes_Illumina_only```   
 

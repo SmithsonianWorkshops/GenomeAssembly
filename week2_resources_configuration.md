@@ -38,10 +38,10 @@ Tutorial Steps:
  + For 2X250 Illumina data, they suggest the following commands: 
 ```-k 21,33,55,77,99,127```  
 ```--careful```
-	+ You will also need to specify the reads using:   
+* You will also need to specify the reads using:   
 ```-1 Salmonella_RM_8375_MiSeq_SRR1555312_1.fastq```  
 ```-2 Salmonella_RM_8375_MiSeq_SRR1555312_2.fastq```      
-	+ And an output directory:  
+* And an output directory:  
 ```-o SPAdes_Illumina_only```   
 
 * Your commands will look something like this:

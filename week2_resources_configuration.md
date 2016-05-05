@@ -83,8 +83,9 @@ Tutorial Steps:
 * Save the job file to the ```MaSuRCA_Salmonella``` directory and submit it from there.  
 * This job should complete in a few seconds and result in a file called assemble.sh  
 * Create a second job file for the second part of MaSuRCA.  
+	+ **Bug:** There is a bug in MaSuRCA that grabs all the threads no matter how many you have requested. We are communicating with Aleksey Zimin to fix this. In the meantime, you'll have to request 64 threads, which is the max available. You will be in queue for a while, but feel free to try it!
 	+ **Queue:** Medium, himem  
-	+ **Threads & RAM:** 8 threads, 12GB RAM each  
+	+ **Threads & RAM:** 64 threads, 4GB RAM each  
 	+ **Module:** ```module load gcc/4.9.2```  
 	+ **Command:** ```./assemble.sh```  
 * Submit this second job.

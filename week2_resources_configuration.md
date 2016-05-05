@@ -22,11 +22,11 @@ Tutorial Steps:
 * Last week, we renamed these files: 
 ```Salmonella_RM_8375_MiSeq_SRR1555312_1.fastq```
 ```Salmonella_RM_8375_MiSeq_SRR1555312_2.fastq```
-```Salmonella_RM_8375_PacBio_SRR2181871.fastq```
+```Salmonella_RM_8375_PacBio_SRR2181871.fastq```  
 
-* Check to make sure you have these with ```ls```
+* Check to make sure you have these with ```ls```  
 
-* What is the approximate coverage for these data?  
+* What is the approximate coverage for these data?   
 	+ *Salmonella* genome size: 4.5Mbp  
 	+ Info from SRA: PacBio: 1.6G bp, MiSeq: 491.7M bp  
 

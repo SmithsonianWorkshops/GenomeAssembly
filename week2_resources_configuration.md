@@ -34,8 +34,8 @@ Tutorial Steps:
 	+ **Queue:** Medium-length, High CPU queue is fine for small genomes  
 	+ **Threads & RAM:** I suggest 12 threads, with 4GB RAM for each  
 	+ **Module:** ```module load bioinformatics/spades/3.7```   
- 	+ Make sure you choose the most recent version of SPAdes, 3.7.  
- 	+ For 2X250 Illumina data, they suggest the following commands: 
++ Make sure you choose the most recent version of SPAdes, 3.7.  
+ + For 2X250 Illumina data, they suggest the following commands: 
 ```-k 21,33,55,77,99,127```  
 ```--careful```  
 	+ You will also need to specify the reads using:  
@@ -59,8 +59,8 @@ Tutorial Steps:
 ###5. Setting up DISCOVAR Illumina only
 * Here is more info about DISCOVAR: [DISCOVAR manual](Discovar manual: https://docs.google.com/document/d/1U_o-Z0dJ0QKiJn86AV2o_YHiFzUtW9c57eh3tYjkINc/edit)  
 * Create a job file to run DISCOVAR:
- 	+ **Queue:** Short length, high memory  
- 	+ **Threads & RAM:** 8 threads, 12GB RAM each  
+ + **Queue:** Short length, high memory  
+ + **Threads & RAM:** 8 threads, 12GB RAM each  
 	+ **Module:** ```module load bioinformatics/disocovardenovo/52488```
 	+ **Commands:** ```DiscovarDeNovo READS=Salmonella_RM_8375_MiSeq_SRR1555312_1.fastq,Salmonella_RM_8375_MiSeq_SRR1555312_2.fastq OUT_DIR=Salmonella_DISCOVAR MAX_MEM_GB=90 MEMORY_CHECK=TRUE```
 	+ **Hint:** DISCOVAR can sometimes produce memory errors - let us know if you get one.

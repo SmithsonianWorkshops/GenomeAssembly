@@ -3,11 +3,11 @@ Genome Assembly Workshop Week 2: Resource Allocation and Configuration Files
 
 Tutorial Steps:  
 1. Getting set on Hydra  
-2. Making sure you have the sequence files  
-3. Setting up SPAdes Illumina only  
-4. Setting up SPAdes Illumina + PacBio
-5. Setting up DISCOVAR Illumina only
-6. Setting up MaSuRCA Illumina + PacBio
+2. Making sure you have the sequence files    
+3. Setting up SPAdes Illumina only    
+4. Setting up SPAdes Illumina + PacBio  
+5. Setting up DISCOVAR Illumina only  
+6. Setting up MaSuRCA Illumina + PacBio  
 
 ###1. Getting set on Hydra
 * Login to Hydra (If you need assistance with Hydra, check the [support wiki](https://confluence.si.edu/display/HPC/High+Performance+Computing)).

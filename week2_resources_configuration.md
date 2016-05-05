@@ -85,7 +85,7 @@ Tutorial Steps:
 * Create a second job file for the second part of MaSuRCA.  
 	+ **Queue:** Medium, himem  
 	+ **Threads & RAM:** 8 threads, 12GB RAM each  
-	+ **Module:** ```module load bioinformatics/gcc/4.9.2```  
+	+ **Module:** ```module load gcc/4.9.2```  
 	+ **Command:** ```./assemble.sh```  
 * Submit this second job.
 

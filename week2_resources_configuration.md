@@ -57,7 +57,7 @@ Tutorial Steps:
 ```-o SPAdes_Hybrid```
 
 ###5. Setting up DISCOVAR Illumina only
-* Here is more info about DISCOVAR: [DISCOVAR manual](Discovar manual: https://docs.google.com/document/d/1U_o-Z0dJ0QKiJn86AV2o_YHiFzUtW9c57eh3tYjkINc/edit)  
+* Here is more info about DISCOVAR: [DISCOVAR manual](https://docs.google.com/document/d/1U_o-Z0dJ0QKiJn86AV2o_YHiFzUtW9c57eh3tYjkINc/edit)  
 * Create a job file to run DISCOVAR:
  + **Queue:** Short length, high memory  
  + **Threads & RAM:** 8 threads, 12GB RAM each  

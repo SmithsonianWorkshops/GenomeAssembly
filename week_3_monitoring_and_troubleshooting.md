@@ -40,8 +40,7 @@ Tutorial steps:
 ###4. Find the assembly output files
 If you didn't complete all of the assemblies, you can use ```cp``` to copy the results from my directory (/pool/genomics/dikowr/assembly_tutorial) to yours:
 
-* SPAdes Illumina only:
-```SPAdes_Illumina_contigs.fasta```  
+* SPAdes Illumina only: ```SPAdes_Illumina_contigs.fasta```  
 * SPAdes Hybrid: ```SPAdes_hybrid_contigs.fasta``` & ```SPAdes_hybrid_scaffold.fasta```  
 
 * DISCOVAR: ```DISCOVAR_a.lines.fasta```  

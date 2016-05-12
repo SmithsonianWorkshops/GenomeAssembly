@@ -96,9 +96,9 @@ A DISCOVAR de novo assembly is a graph whose edges represent DNA sequences. With
 ![](http://www.broadinstitute.org/software/discovar/blog/wp-content/uploads/2014/08/line0.png)
 
 * We can remove small contigs using bioawk:
-	+ Module: bioinformatics/bioawk/0.0
+	+ Module: ```bioinformatics/bioawk/0.0```
 	+ Command: ```bioawk -c fastx '{ if(length($seq) > 200) { print ">"$name; print $seq }}' <ORIGINAL.fasta> > <NEW.fasta>```
-* Check how many contigs were removed.
+* Check how many contigs were removed with ```grep ">"```
 
 ###6. Run Genomescope
 

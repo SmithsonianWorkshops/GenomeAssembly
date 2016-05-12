@@ -77,9 +77,7 @@ Longest contig is:
 Shortest contig is: 
 
 * Create job files to run this script for each assembly file. There are 7 assembly files.  
-	+ The script is here: 
-```/scratch/genomics/frandsenp/fasta_metadata_parser/fasta_meta_data_parser.py```
-
+	+ The script is here: ```/scratch/genomics/frandsenp/fasta_metadata_parser/fasta_meta_data_parser.py```
 	+ Usage: ```python fasta_meta_data_parser.py <genome_filename> <statistics_output_name.txt>```  
 	+ Module: ```bioinformatics/anaconda/2.2.0```
 

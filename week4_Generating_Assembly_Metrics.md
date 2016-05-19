@@ -6,7 +6,7 @@ Tutorial steps:
 2. Run Genomescope  
 3. Run QUAST  
 4. Genome alignments with LASTZ  
-5. BUSCO
+5. BUSCO  
 6. Metagenomic classification with Kraken  
   
 
@@ -32,7 +32,7 @@ Tutorial steps:
 * Second job file: histogram:
 	+ Module: ```bioinformatics/jellyfish/2.2.3```
 	+ Commands: ```jellyfish histo -t $NSLOTS reads.jf > reads.histo```
-* Download the histogram to your computer, and put it in the Genomescope webservice: [Genomescope](http://qb.cshl.edu/genomescope/) 
+* Download the histogram to your computer, and put it in the Genomescope webservice: [Genomescope](http://qb.cshl.edu/genomescope) 
 ![](/Users/rebeccadikow/Desktop/genomescope.tiff)
 
 ###Run QUAST
@@ -50,7 +50,7 @@ Tutorial steps:
 	+ Lots of other options in the QUAST manual
 	+ **Resource recommendations:** Serial, 4GB RAM, short. Note: for larger genomes, QUAST will need much more RAM.
 * After it completes, check out some of the graphs it produces, *e.g.*
-![](/Users/rebeccadikow/Desktop/Nx_quast.tiff)
+![](GenomeAssembly/Nx_quast.tiff)
 
 ###4. Genome alignments with LASTZ
 * [LASTZ](http://www.bx.psu.edu/~rsharris/lastz/) is a pairwise genome alignment program.

@@ -86,7 +86,7 @@ Tutorial steps:
 	+ **Module**: ```bioinformatics/kraken/0.10.5```
 	+ **Command**: ```kraken```
 	+ **Arguments**: ```--preload```= preload the database, ```--db```= path to database, ```--threads```= number of threads, ```<YOUR_FILE.fasta>```
-	+ The Kraken database is here: ```/pool/scratch/genomics/dikowr/KrakenDB```
+	+ The Kraken database is here: ```/pool/scratch/genomics/dikowr/KRAKEN/KrakenDB```
 	+ **Resource recommendations**: you will need approximately 100GB RAM, so divide that across the number of threads you want to request. This has to be run on the himem queue, short.
 * Assigning names:
 	+ **Module**: ```bioinformatics/kraken/0.10.5```

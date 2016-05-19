@@ -1,7 +1,7 @@
 Assembly Workshop Week 4: Generating Assembly Metrics  
 ---
 
-Tutorial steps: 
+Tutorial steps:  
 1. How to most effectively get help  
 2. Run Genomescope  
 3. Run QUAST  
@@ -49,7 +49,7 @@ Tutorial steps:
 	+ You will need to add the ```--scaffolds``` argument if including scaffold files
 	+ Lots of other options in the QUAST manual
 	+ **Resource recommendations:** Serial, 4GB RAM, short. Note: for larger genomes, QUAST will need much more RAM.
-* After it completes, check out some of the graphs it produces, *e.g.* [Nx_quast.png](GitHub.com/SmithsonianWorkshops/GenomeAssembly/Nx_quast.png)
+* After it completes, check out some of the graphs it produces, *e.g.* [Nx_quast.png](http://github.com/SmithsonianWorkshops/GenomeAssembly/Nx_quast.png)
 
 ###4. Genome alignments with LASTZ
 * [LASTZ](http://www.bx.psu.edu/~rsharris/lastz/) is a pairwise genome alignment program.

@@ -67,7 +67,7 @@ Tutorial steps:
 * Using a known conserved gene set for your taxon of interest, you assess completeness for those conserved genes.
 	+ **Module**: ```bioinformatics/busco/1.1b1```
 	+ **Command**: ```BUSCO_v1.1b1.py```
-	+ **Arguments**: ``-o``= output directory, ```-in```= your assembly, ```-l```= BUSCO gene set, ```-c``` = CPUs, ```-m```= indicates this is a genome assessment.
+	+ **Arguments**: ``-o``= output directory, ```-in```= your assembly, ```-l```= BUSCO gene set, ```-c``` = CPUs, ```-m genome```= indicates this is a genome assessment.
 	+ **Resource recommendations**: Serial, 4GB RAM, short.
 	+ The bacteria BUSCO gene set is here: ```/pool/genomics/dikowr/assembly_tutorial/Bacteria```
 * After it completes, check the short_summary for results.

@@ -33,7 +33,7 @@ Tutorial steps:
 	+ Module: ```bioinformatics/jellyfish/2.2.3```
 	+ Commands: ```jellyfish histo -t $NSLOTS reads.jf > reads.histo```
 * Download the histogram to your computer, and put it in the Genomescope webservice: [Genomescope](http://qb.cshl.edu/genomescope) 
-* Check out [genomescope.png](GitHub.com/SmithsonianWorkshops/GenomeAssembly/genomescope.png)
+* Check out genomescope.png in the GenomeAssembly github
 
 ###Run QUAST
 * [QUAST](http://bioinf.spbau.ru/quast) is a program that allows you to compare your assembly (or assemblies) to one another or to a reference. 
@@ -49,7 +49,7 @@ Tutorial steps:
 	+ You will need to add the ```--scaffolds``` argument if including scaffold files
 	+ Lots of other options in the QUAST manual
 	+ **Resource recommendations:** Serial, 4GB RAM, short. Note: for larger genomes, QUAST will need much more RAM.
-* After it completes, check out some of the graphs it produces, *e.g.* [Nx_quast.png](http://github.com/SmithsonianWorkshops/GenomeAssembly/Nx_quast.png)
+* After it completes, check out some of the graphs it produces, *e.g.* Check out Nx_quast.png in the GenomeAssembly github
 
 ###4. Genome alignments with LASTZ
 * [LASTZ](http://www.bx.psu.edu/~rsharris/lastz/) is a pairwise genome alignment program.

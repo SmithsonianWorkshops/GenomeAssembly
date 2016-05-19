@@ -50,7 +50,7 @@ Tutorial steps:
 	+ Lots of other options in the QUAST manual
 	+ **Resource recommendations:** Serial, 4GB RAM, short. Note: for larger genomes, QUAST will need much more RAM.
 * After it completes, check out some of the graphs it produces, *e.g.*
-[[https://www.github.com/SmithsonianWorkshops/GenomeAssembly/Nx_quast.tiff]]
+![](http://www.github.com/SmithsonianWorkshops/GenomeAssembly/Nx_quast.tiff?raw=true)
 
 ###4. Genome alignments with LASTZ
 * [LASTZ](http://www.bx.psu.edu/~rsharris/lastz/) is a pairwise genome alignment program.

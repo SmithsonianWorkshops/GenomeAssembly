@@ -57,7 +57,7 @@ Tutorial steps:
 *  You tell it the reference and contig/scaffold file, and it generates a SAM file. LASTZ is different than a multiple sequence alignment program because it allows the query matches to not be in the same order as the reference genome. 
 	+ **Module**: ```bioinformatics/lastz/1.03```
 	+ **Command**: ```lastz```
-	+ **Arguments**: ```<REFERENCE GENOME> <QUERY GENOME> ambiguous=iupac --chain --nogapped hspthresh=2500 --seed=12of19 --step=10 --format=sam > <ALIGNMENT.sam>```
+	+ **Arguments**: ```<REFERENCE GENOME> <QUERY GENOME> --ambiguous=iupac --chain --nogapped --hspthresh=2500 --seed=12of19 --step=10 --format=sam > <ALIGNMENT.sam>```
 	+ **Resource recommendations**: Serial, 4GB RAM, short.
 	+ There are many additional parameters in the LASTZ documentation, I've chosen the above because they seem to provide the appropriate sensitivity, but read more about them when you have time.
 * After it completes, download the SAM file and the *Salmonella* reference genome fasta file to your computer and open them in Geneious. To import a SAM file in Geneious, you always need the reference file too.
@@ -85,13 +85,13 @@ Tutorial steps:
 * Classifying the reads:
 	+ **Module**: ```bioinformatics/kraken/0.10.5```
 	+ **Command**: ```kraken```
-	+ **Arguments***: ```--preload```= preload the database, ```--db```= path to database, ```--threads```= number of threads, ```<YOUR_FILE.fasta>```
+	+ **Arguments**: ```--preload```= preload the database, ```--db```= path to database, ```--threads```= number of threads, ```<YOUR_FILE.fasta>```
 	+ The Kraken database is here: ```/pool/scratch/genomics/dikowr/KrakenDB```
 	+ **Resource recommendations**: you will need approximately 100GB RAM, so divide that across the number of threads you want to request. This has to be run on the himem queue, short.
 * Assigning names:
-	+ + **Module**: ```bioinformatics/kraken/0.10.5```
+	+ **Module**: ```bioinformatics/kraken/0.10.5```
 	+ **Command**: ```kraken-translate```
-	+ **Arguments***: ```--db```= path to database, ```<YOUR_LOG_FILE_FROM_STEP_1.log>```
+	+ **Arguments**: ```--db```= path to database, ```<YOUR_LOG_FILE_FROM_STEP_1.log>```
 	+ **Resource recommendations**:  Serial, 4GB RAM, short.
 
 
